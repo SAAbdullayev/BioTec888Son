@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+* a {
+  text-decoration: none;
+  color: white;
+}
+
+.aboutsection {
+  width: 100%;
+  height: auto;
+  background-color: #474747;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 100px 0px 50px;
+}
+
+.aboutsection .aftereffect::after {
+  content: "";
+  bottom: -20px;
+  height: 1px;
+  width: 100%;
+  background-color: #03035c;
+  position: absolute;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.aboutsection p {
+  margin: 30px 0px;
+  font-size: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: lightgrey;
+  position: relative;
+}
+
+.aboutsection p::after {
+  content: "";
+  bottom: 1px;
+  height: 1px;
+  width: 50px;
+  background-color: #bbbbbb;
+  position: absolute;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.aboutsection:hover p::after {
+  width: 100%;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.aboutsection span {
+  display: block;
+  text-align: center;
+  color: white;
+}
+
+.aboutsection h5 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: white;
+  text-align: center;
+}
+
+.aboutsection h6 {
+  color: white;
+  font-weight: lighter;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.aboutsection .photomarg {
+  margin: 40px 0px;
+}
+
+.aboutsection .photomarg:hover img {
+  -webkit-transition: 0.35s;
+  transition: 0.35s;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.aboutsection img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  -webkit-transition: 0.35s;
+  transition: 0.35s;
+  max-height: 330px;
+}
+/*# sourceMappingURL=aboutus.css.map */

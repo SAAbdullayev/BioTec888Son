@@ -1,0 +1,225 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+* a {
+  text-decoration: none;
+  color: white;
+}
+
+.projectsection {
+  width: 100%;
+  height: auto;
+  background-color: #474747;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 100px 0px 50px;
+  position: relative;
+}
+
+.projectsection img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  -webkit-transition: 0.35s;
+  transition: 0.35s;
+}
+
+.projectsection .photomarg {
+  margin: 40px 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: -100px;
+  border-radius: 20px;
+  min-height: 400px;
+}
+
+.projectsection h1 {
+  position: absolute;
+  top: 40px;
+  left: 60px;
+  color: white;
+  opacity: 50%;
+}
+
+.projectsection p {
+  margin: 30px 0px;
+  font-size: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: lightgrey;
+  position: relative;
+}
+
+.projectsection p::after {
+  content: "";
+  bottom: 1px;
+  height: 1px;
+  width: 50px;
+  background-color: #bbbbbb;
+  position: absolute;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.projectsection:hover p::after {
+  width: 100%;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.projectsection a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 200px;
+  height: 40px;
+  margin: 300px 0px 30px 30px;
+  border: 1px solid white;
+  border-radius: 20px;
+  text-decoration: none;
+  -webkit-transition: 0.35s;
+  transition: 0.35s;
+}
+
+.projectsection a i {
+  margin: 2px 0px 0px 10px;
+  -webkit-transition: 0.35s;
+  transition: 0.35s;
+}
+
+.projectsection a:hover {
+  border: 1px solid #2732d1;
+  background-color: #2732d1;
+  color: white;
+  -webkit-transition: 0.35s;
+  transition: 0.35s;
+}
+
+.projectsection a:hover i {
+  -webkit-transform: translateX(5px);
+          transform: translateX(5px);
+  -webkit-transition: 0.35s;
+  transition: 0.35s;
+}
+
+@media only screen and (max-width: 768px) {
+  .projectsection {
+    width: 100%;
+    height: auto;
+    background-color: #474747;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 100px 0px 50px;
+    position: relative;
+  }
+  .projectsection .photomarg {
+    margin: 40px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -100px;
+    border-radius: 20px;
+    min-height: 300px;
+  }
+  .projectsection h1 {
+    position: absolute;
+    top: 40px;
+    left: 60px;
+    color: white;
+    opacity: 50%;
+  }
+  .projectsection p {
+    margin: 30px 0px;
+    font-size: 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: lightgrey;
+    position: relative;
+  }
+  .projectsection p::after {
+    content: "";
+    bottom: 1px;
+    height: 1px;
+    width: 50px;
+    background-color: #bbbbbb;
+    position: absolute;
+    -webkit-transition: 0.6s;
+    transition: 0.6s;
+  }
+  .projectsection:hover p::after {
+    width: 100%;
+    -webkit-transition: 0.6s;
+    transition: 0.6s;
+  }
+  .projectsection a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    top: 190px;
+    width: 200px;
+    height: 40px;
+    margin: 30px;
+    border: 1px solid white;
+    border-radius: 20px;
+    text-decoration: none;
+    -webkit-transition: 0.35s;
+    transition: 0.35s;
+  }
+  .projectsection a i {
+    margin: 2px 0px 0px 10px;
+    -webkit-transition: 0.35s;
+    transition: 0.35s;
+  }
+  .projectsection a:hover {
+    border: 1px solid #2732d1;
+    background-color: #2732d1;
+    color: white;
+    -webkit-transition: 0.35s;
+    transition: 0.35s;
+  }
+  .projectsection a:hover i {
+    -webkit-transform: translateX(5px);
+            transform: translateX(5px);
+    -webkit-transition: 0.35s;
+    transition: 0.35s;
+  }
+}
+/*# sourceMappingURL=projects.css.map */
