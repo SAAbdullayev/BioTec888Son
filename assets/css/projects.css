@@ -24,6 +24,8 @@
           align-items: center;
   padding: 100px 0px 50px;
   position: relative;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(134, 134, 134, 0.618)), color-stop(rgba(199, 202, 35, 0.453)), color-stop(rgba(27, 166, 117, 0.523)), to(rgba(0, 0, 0, 0.297)));
+  background-image: linear-gradient(to right, rgba(134, 134, 134, 0.618), rgba(199, 202, 35, 0.453), rgba(27, 166, 117, 0.523), rgba(0, 0, 0, 0.297));
 }
 
 .projectsection img {
@@ -60,7 +62,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  color: lightgrey;
+  color: white;
   position: relative;
 }
 

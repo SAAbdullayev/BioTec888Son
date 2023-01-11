@@ -28,6 +28,8 @@
           align-items: center;
   padding: 100px 0px 50px;
   position: relative;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(134, 134, 134, 0.618)), color-stop(rgba(30, 221, 212, 0.453)), color-stop(rgba(34, 23, 193, 0.523)), to(rgba(0, 0, 0, 0.297)));
+  background-image: linear-gradient(to right, rgba(134, 134, 134, 0.618), rgba(30, 221, 212, 0.453), rgba(34, 23, 193, 0.523), rgba(0, 0, 0, 0.297));
 }
 
 .newssection p {
@@ -39,7 +41,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  color: lightgrey;
+  color: white;
   position: relative;
 }
 
@@ -85,7 +87,7 @@
 .newssection .news .newsheading {
   display: block;
   font-size: 40px;
-  color: gray;
+  color: white;
   text-align: center;
 }
 

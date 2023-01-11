@@ -22,13 +22,20 @@
     padding: 100px 0px 50px;
     position: relative;
     overflow-x: hidden;
+    background-image: linear-gradient(
+        to right,
+        rgba(112, 112, 112, 0.618),
+        rgba(14, 40, 183, 0.742),
+        rgba(14, 163, 61, 0.774),
+        rgba(0, 0, 0, 0.297)
+      );
 
     p{
         margin: 30px 0px;
         font-size: 60px;
         display: flex;
         justify-content: center;
-        color: lightgrey;
+        color: white;
         position: relative;
 
         &::after{
@@ -61,16 +68,14 @@
             font-size: 24px;
             margin: 80px 0px 16px;
             padding-left: 20px;
-            color: lightgrey;
+            color: white;
         }
 
         .info{
-            min-width: 450px;
-            min-height: 48px;
             font-size: 16px;
             margin: 0px 0px 16px;
             padding-left: 20px;
-            color: lightgrey;
+            color: white;
             display: block;
 
             &::after{
@@ -82,11 +87,11 @@
         .fonts{
             list-style: none;
             padding-left: 20px;
-            color: lightgrey;
+            color: white;
             margin-bottom: 5px !important;
 
             i{
-                color: lightgrey;
+                color: white;
                 margin-right: 5px;
             }
         }
@@ -97,7 +102,7 @@
             a{
                 transition: 0.5s;
                 text-decoration: none;
-                color: lightgrey;
+                color: white;
             }
 
             &:hover{
@@ -120,7 +125,7 @@
             li{
                 width: 37px;
                 border: 1px solid #03035c;
-                background-color: gray;
+                background-color: transparent;
                 display: block;
                 font-size: 14px;
                 height: 35px;
@@ -137,7 +142,7 @@
                     a{
                         i{
                             transition: 0.35s;
-                            color: gray;
+                            color: white;
                         }
                     }
                 }
@@ -182,7 +187,7 @@
             input{
                 width: 100%;
                 height: 44px;
-                padding: 3px 10px 5px 38px;
+                padding: 3px 10px 5px 15px;
 
                 &:focus-visible{
                     outline: 1px solid blue;
@@ -222,7 +227,7 @@
         textarea{
             width: 100%;
             min-height: 300px;
-            padding: 3px 10px 5px 38px;
+            padding: 3px 10px 5px 15px;
             resize: none;
 
             &:focus-visible{

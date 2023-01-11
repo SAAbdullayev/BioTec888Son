@@ -25,6 +25,8 @@
   padding: 100px 0px 50px;
   position: relative;
   overflow-x: hidden;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(112, 112, 112, 0.618)), color-stop(rgba(14, 40, 183, 0.742)), color-stop(rgba(14, 163, 61, 0.774)), to(rgba(0, 0, 0, 0.297)));
+  background-image: linear-gradient(to right, rgba(112, 112, 112, 0.618), rgba(14, 40, 183, 0.742), rgba(14, 163, 61, 0.774), rgba(0, 0, 0, 0.297));
 }
 
 .contactus p {
@@ -36,7 +38,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  color: lightgrey;
+  color: white;
   position: relative;
 }
 
@@ -62,16 +64,14 @@
   font-size: 24px;
   margin: 80px 0px 16px;
   padding-left: 20px;
-  color: lightgrey;
+  color: white;
 }
 
 .contactus .contactinfo .info {
-  min-width: 450px;
-  min-height: 48px;
   font-size: 16px;
   margin: 0px 0px 16px;
   padding-left: 20px;
-  color: lightgrey;
+  color: white;
   display: block;
 }
 
@@ -83,12 +83,12 @@
 .contactus .contactinfo .fonts {
   list-style: none;
   padding-left: 20px;
-  color: lightgrey;
+  color: white;
   margin-bottom: 5px !important;
 }
 
 .contactus .contactinfo .fonts i {
-  color: lightgrey;
+  color: white;
   margin-right: 5px;
 }
 
@@ -101,7 +101,7 @@
   -webkit-transition: 0.5s;
   transition: 0.5s;
   text-decoration: none;
-  color: lightgrey;
+  color: white;
 }
 
 .contactus .contactinfo .hover:hover {
@@ -126,7 +126,7 @@
 .contactus .contactinfo .social li {
   width: 37px;
   border: 1px solid #03035c;
-  background-color: gray;
+  background-color: transparent;
   display: block;
   font-size: 14px;
   height: 35px;
@@ -147,7 +147,7 @@
 .contactus .contactinfo .social li:hover a i {
   -webkit-transition: 0.35s;
   transition: 0.35s;
-  color: gray;
+  color: white;
 }
 
 .contactus .contactinfo .social li a {
@@ -182,7 +182,7 @@
 .contactus .contactemail .contactinput input {
   width: 100%;
   height: 44px;
-  padding: 3px 10px 5px 38px;
+  padding: 3px 10px 5px 15px;
 }
 
 .contactus .contactemail .contactinput input:focus-visible {
@@ -220,7 +220,7 @@
 .contactus .contacttextarea textarea {
   width: 100%;
   min-height: 300px;
-  padding: 3px 10px 5px 38px;
+  padding: 3px 10px 5px 15px;
   resize: none;
 }
 

@@ -12,6 +12,11 @@
   margin: 0px !important;
 }
 
+@font-face {
+  font-family: ozel;
+  src: url("../../fonts/verdana.ttf");
+}
+
 header {
   height: auto;
   background-color: transparent;
@@ -107,6 +112,8 @@ main .gallerysection {
       -ms-flex-align: center;
           align-items: center;
   padding: 0px 0px 50px;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(134, 134, 134, 0.618)), color-stop(rgba(196, 86, 53, 0.453)), color-stop(rgba(56, 203, 73, 0.523)), to(rgba(0, 0, 0, 0.297)));
+  background-image: linear-gradient(to right, rgba(134, 134, 134, 0.618), rgba(196, 86, 53, 0.453), rgba(56, 203, 73, 0.523), rgba(0, 0, 0, 0.297));
 }
 
 main .gallerysection .photomarg {
@@ -119,6 +126,8 @@ main .gallerysection img {
   border-radius: 20px;
   -webkit-transition: 0.35s;
   transition: 0.35s;
+  -webkit-box-shadow: 6px 6px 2px 1px rgba(64, 64, 255, 0.644);
+          box-shadow: 6px 6px 2px 1px rgba(64, 64, 255, 0.644);
 }
 
 main .gallerysection img:hover {
@@ -137,7 +146,7 @@ main .gallerysection p {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  color: lightgrey;
+  color: white;
   position: relative;
 }
 
@@ -159,7 +168,11 @@ main .gallerysection:hover p::after {
 }
 
 footer {
-  background-color: #6c6c6c;
+  background-color: transparent;
+  background-image: url("../../images/bugda4.gif");
+  background-repeat: repeat;
+  background-size: cover;
+  background-position-y: bottom;
   padding: 50px 0px;
 }
 
@@ -197,6 +210,7 @@ footer .socialmedia .fb {
       -ms-flex-align: center;
           align-items: center;
   text-decoration: none;
+  color: white;
 }
 
 footer .socialmedia .insta {
@@ -215,6 +229,7 @@ footer .socialmedia .insta {
       -ms-flex-align: center;
           align-items: center;
   text-decoration: none;
+  color: white;
 }
 
 footer .socialmedia .tw {
@@ -233,6 +248,7 @@ footer .socialmedia .tw {
       -ms-flex-align: center;
           align-items: center;
   text-decoration: none;
+  color: white;
 }
 
 footer .texts {
@@ -250,13 +266,14 @@ footer .texts {
 }
 
 footer .texts h5 {
-  color: #444444;
+  font-size: 30px;
+  color: #ffffff;
   margin: 0px 0px 25px;
 }
 
 footer .texts a {
   font-size: 17px;
-  color: #AAAAAA;
+  color: #ffffff;
   -webkit-transition: 0.35s;
   transition: 0.35s;
   cursor: pointer;
@@ -271,8 +288,9 @@ footer .texts a:hover {
 }
 
 footer .texts p {
+  padding-left: 10px;
   font-size: 17px;
-  color: #AAAAAA;
+  color: #ffffff;
 }
 
 @keyframes fadeInUp {
@@ -322,6 +340,8 @@ footer .texts p {
   position: fixed;
   width: 100%;
   z-index: 111;
+  -webkit-box-shadow: 0px 3px 3px #747474;
+          box-shadow: 0px 3px 3px #747474;
 }
 
 #navbar .position {
@@ -329,7 +349,7 @@ footer .texts p {
   height: 131px;
   opacity: 60%;
   position: absolute;
-  background-color: gray;
+  background-color: rgba(108, 108, 108, 0.547);
 }
 
 #navbar img {
@@ -359,8 +379,8 @@ footer .texts p {
 }
 
 #navbar ul li a {
+  font-family: ozel;
   font-size: 17px;
-  font-family: sans-serif;
 }
 
 #navbar a {
@@ -419,6 +439,7 @@ footer .texts p {
 
 #myLinks a {
   text-decoration: none;
+  font-family: ozel;
   color: #fff;
   -webkit-transition: 0.35;
   transition: 0.35;

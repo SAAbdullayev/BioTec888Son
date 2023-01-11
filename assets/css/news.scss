@@ -25,13 +25,20 @@
     align-items: center;
     padding: 100px 0px 50px;
     position: relative;
+    background-image: linear-gradient(
+        to right,
+        rgba(134, 134, 134, 0.618),
+        rgba(30, 221, 212, 0.453),
+        rgba(34, 23, 193, 0.523),
+        rgba(0, 0, 0, 0.297)
+      );
 
     p{
         margin: 30px 0px;
         font-size: 60px;
         display: flex;
         justify-content: center;
-        color: lightgrey;
+        color: white;
         position: relative;
 
         &::after{
@@ -80,7 +87,7 @@
         .newsheading{
             display: block;
             font-size: 40px;
-            color: gray;
+            color: white;
             text-align: center;
         }
 

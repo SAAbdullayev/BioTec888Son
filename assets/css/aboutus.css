@@ -11,7 +11,8 @@
 .aboutsection {
   width: 100%;
   height: auto;
-  background-color: #474747;
+  background-image: url("../../images/G65MKL.gif");
+  background-color: transparent;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -45,7 +46,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  color: lightgrey;
+  color: white;
   position: relative;
 }
 
@@ -104,5 +105,11 @@
   -webkit-transition: 0.35s;
   transition: 0.35s;
   max-height: 330px;
+}
+
+@media only screen and (max-width: 767px) {
+  img {
+    max-height: none !important;
+  }
 }
 /*# sourceMappingURL=aboutus.css.map */

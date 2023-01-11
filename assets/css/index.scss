@@ -14,6 +14,10 @@
     }
 }
 
+@font-face {
+    font-family: ozel;
+    src: url("../../fonts/verdana.ttf");
+}
 
 header{
     height: auto;
@@ -105,6 +109,13 @@ main{
         flex-direction: column;
         align-items: center;
         padding: 0px 0px 50px;
+        background-image: linear-gradient(
+            to right,
+            rgba(134, 134, 134, 0.618),
+            rgba(196, 86, 53, 0.453),
+            rgba(56, 203, 73, 0.523),
+            rgba(0, 0, 0, 0.297)
+          );
 
         .photomarg{
             margin: 20px 0px;
@@ -115,6 +126,7 @@ main{
             height: 100%;
             border-radius: 20px;
             transition: 0.35s;
+            box-shadow: 6px 6px 2px 1px rgba(64, 64, 255, 0.644);
             
             &:hover{
                 transition: 0.35s;
@@ -128,7 +140,7 @@ main{
             font-size: 60px;
             display: flex;
             justify-content: center;
-            color: lightgrey;
+            color: white;
             position: relative;
 
             &::after{
@@ -157,7 +169,11 @@ main{
 
 
 footer{
-    background-color: rgb(108, 108, 108);
+    background-color: transparent;
+    background-image: url("../../images/bugda4.gif");
+    background-repeat: repeat;
+    background-size: cover;
+    background-position-y: bottom;
 
     padding: 50px 0px;
 
@@ -184,6 +200,7 @@ footer{
             justify-content: center;
             align-items: center;
             text-decoration: none;
+            color: white;
         }
 
         .insta{
@@ -196,6 +213,7 @@ footer{
             justify-content: center;
             align-items: center;
             text-decoration: none;
+            color: white;
         }
 
         .tw{
@@ -208,6 +226,7 @@ footer{
             justify-content: center;
             align-items: center;
             text-decoration: none;
+            color: white;
         }
     }
 
@@ -219,14 +238,15 @@ footer{
         padding: 35px 0px 0px 0px;
 
         h5{
-            color: #444444;
+            font-size: 30px;
+            color: #ffffff;
             margin: 0px 0px 25px;
         }
     
     
         a{
             font-size: 17px;
-            color: #AAAAAA;
+            color: #ffffff;
             transition: 0.35s;
             cursor: pointer;
             margin-bottom: 16px;
@@ -239,8 +259,9 @@ footer{
         }
 
         p{
+            padding-left: 10px;
             font-size: 17px;
-            color: #AAAAAA;
+            color: #ffffff;
         }
     }
 }
@@ -295,13 +316,14 @@ footer{
     position: fixed;
     width: 100%;
     z-index: 111;
+    box-shadow: 0px 3px 3px rgb(116, 116, 116);
 
     .position{
         width: 100%;
         height: 131px;
         opacity: 60%;
         position: absolute;
-        background-color: gray;
+        background-color: rgba(108, 108, 108, 0.547);
     }
 
     img{
@@ -324,8 +346,8 @@ footer{
             padding: 39px 0px;
 
             a{
+                font-family: ozel;
                 font-size: 17px;
-                font-family: sans-serif;
             }
         }
     }
@@ -387,6 +409,7 @@ footer{
 
   #myLinks a{
     text-decoration: none;
+    font-family: ozel;
 
     color: #fff;
     transition: 0.35;
@@ -518,6 +541,7 @@ footer{
         h5, a{
             margin: 10px !important;
         }
+
     }
   }
 
